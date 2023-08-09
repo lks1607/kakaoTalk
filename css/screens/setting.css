@@ -1,0 +1,50 @@
+.setting-screan{
+    padding: 0 var(--horizontal-space);
+    padding-top: 80px;
+}
+
+.settings-setting{
+    display: flex;
+    align-items: center;
+    padding: 25px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    justify-content: space-between;
+
+}
+
+
+.settings-setting i{
+    margin-right: 15px;
+    opacity: 0.7;
+}
+/* 
+.setting-tap{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.settings-setting-column{
+    display: flex;
+    align-items: center;
+}
+
+.version-detail, .theme-detail{
+    opacity: 0.4;
+}
+
+
+.up{
+    padding: 25px 0;
+}
+
+.up .settings-setting:last-child{
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.down{
+    padding: 25px 0;
+    padding-bottom: 60px;
+}

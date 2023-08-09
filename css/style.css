@@ -1,0 +1,85 @@
+@import "./reset.css";
+@import "./variables.css";
+
+/* compornent */
+
+/* 상태바 */
+@import "./components/status-bar.css";
+/* 네이게이션 바 */
+@import "./components/nav-bar.css";
+
+/* 알림뱃지 */
+@import "./components/badge.css";
+
+/* user-component */
+@import "./components/user-component.css";
+
+/* icons-row */
+@import "./components/icons-row.css";
+
+/* alt-screen-header */
+@import "./components/alt-screen-header.css";
+
+
+/* screen */
+
+/* 메인화면 로그인폼 */
+@import "./screens/login-form.css";
+
+/* header */
+@import "./components/screen-header.css";
+
+/* friends */
+@import "./screens/friends.css";
+
+/* chats */
+@import "./screens/chats.css";
+
+/* find */
+@import "./screens/find.css";
+
+/* more */
+@import "./screens/more.css";
+
+/* setting */
+@import "./screens/setting.css";
+
+/* chat */
+@import "./screens/chat.css";
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-sys tem, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+
+.main-screen{
+    padding: 0 var(--horizontal-space);
+}
+
+@media screen and (min-width:645px){
+    #no-mobile{
+        position: absolute;
+        z-index: 99;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--yellow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        top: 0;
+    }
+    
+}
+
+@media screen and (max-width:645px){
+    #no-mobile{
+        display: none;
+    }
+}
+
